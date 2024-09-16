@@ -21,7 +21,15 @@ Your alarm will expire at 3.
 '''
 
 def main():
-    # YOUR CODE HERE
+    # Given values
+    current_hour= 11
+    alarm_go_off= 51 
+
+    # Calculate for future hour, add alarm_go_off to current_hour
+    alarm_hour= (current_hour + alarm_go_off) % 24
+
+    # Output result
+    print(f"the alarm will go off at: {alarm_hour:02d}:00") 
 
 if __name__ == '__main__':
     main()
