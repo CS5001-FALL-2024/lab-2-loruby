@@ -2,7 +2,7 @@
     CS 5001
     Lab 1
     Exercise 3
-    Name:
+    Name: Ruby Lo
 '''
 
 '''
@@ -22,14 +22,14 @@ def main():
     y = 10
 
     # Assign values to the variables below to calculate the difference, product, and average of the values in x and y.
-    difference = # YOUR CODE HERE
-    product = # YOUR CODE HERE
-    average = # YOUR CODE HERE
+    difference = 2
+    product = 4
+    average = 6
 
     # Replace the # YOUR CODE HERE text in the statement below so that the statement will print
     # The difference between x and y is difference.
     # where x, y, and difference are replaced with the values stored in the corresponding variables.    
-    print (f'# YOUR CODE HERE')
+    print (f'')
     # Write a statement to print the product of x and y.
     # Write a statement to print the average of x and y. Make sure this prints 7.5!
 
