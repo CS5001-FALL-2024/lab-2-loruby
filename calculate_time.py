@@ -25,6 +25,10 @@ def main():
     current_hour= 11
     alarm_go_off= 51 
 
+    # Input 
+    current_hour= int(input("what is the current time?"))
+    alarm_go_off= int(input("how long until your alarm goes expires?"))
+
     # Calculate for future hour, add alarm_go_off to current_hour
     alarm_hour= (current_hour + alarm_go_off) % 24
 
